@@ -1,59 +1,81 @@
-# 🍰 Cake Bytes
+# 🍰 Cake Bytes — MERN Stack Cake Ordering Platform
 
-A visually rich and user-friendly cake ordering website designed for both **mobile and desktop users**, focusing on smooth browsing, attractive presentation, and simplicity.
-
----
-
-## 🔴 Live Website
-👉 https://cake-bytes.vercel.app/
+**Cake Bytes** is a full-stack cake ordering web application built using the **MERN stack**, designed to deliver a smooth and delightful experience for users browsing cakes on both **mobile and desktop devices**.
 
 ---
 
-> Optimized for both mobile and desktop viewing experiences.
+## 🌍 Live Application
+🔗 https://cake-bytes.vercel.app/
 
 ---
 
-## 🍩 What is Cake Bytes?
+## 🖼️ Application Preview
 
-**Cake Bytes** is a frontend-focused cake website created to showcase cake collections in an elegant and engaging way.  
-The project emphasizes **responsive design**, clean layouts, and intuitive navigation suitable for modern users browsing on phones or desktops.
+![Cake Bytes UI](./screenshot.png)
 
-This project is ideal for demonstrating **UI design skills**, responsiveness, and frontend fundamentals in a real-world food & e-commerce-style use case.
-
----
-
-## ✨ Key Highlights
-
-- 📱 Fully responsive (mobile + desktop)
-- 🎂 Attractive cake product layouts
-- 🎨 Clean and colorful UI design
-- ⚡ Fast-loading static website
-- 🧁 Easy navigation and browsing experience
+> Responsive UI optimized for both mobile and desktop screens.
 
 ---
 
-## 🧰 Built With
+## 🧁 Project Overview
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)
+Cake Bytes is a modern web application that allows users to explore cake collections through a visually appealing and responsive interface.  
+The project combines **frontend elegance** with **backend scalability**, making it suitable for real-world food and e-commerce use cases.
 
-> No frameworks, no backend — focused purely on frontend performance and design.
+This application was built to demonstrate **full-stack development skills**, clean UI design, and proper separation of concerns between frontend and backend.
 
 ---
 
-## 🎯 Design Focus
+## ⚙️ Core Features
+
+- 🎂 Cake listing and browsing system  
+- 📱 Fully responsive design (mobile + desktop)  
+- 🎨 Clean, food-themed UI  
+- ⚡ Fast frontend rendering  
+- 🔗 Backend-driven data handling  
+- 🧠 Scalable project structure  
+
+---
+
+## 🧩 Tech Architecture
+
+### Frontend
+- React.js  
+- CSS / Tailwind CSS  
+- JavaScript  
+
+### Backend
+- Node.js  
+- Express.js  
+
+### Database
+- MongoDB  
+
+> The frontend is deployed separately for performance and scalability.
+
+---
+
+## 🎨 UI & UX Focus
 
 - Mobile-first responsiveness  
-- Bright, food-inspired color palette  
+- Product-centric layout  
+- Friendly, food-inspired visuals  
 - Clear typography and spacing  
-- Product-focused UI layout  
-- Smooth visual flow across screen sizes  
+- Smooth navigation flow  
 
 ---
 
-## ▶️ Run Locally
+## 🚀 Getting Started (Local Setup)
 
 ```bash
+# Clone the repository
 git clone https://github.com/RevanthPasham/cake-bytes.git
+
+# Navigate to project folder
 cd cake-bytes
+
+# Install dependencies
+npm install
+
+# Run frontend
+npm run dev
